@@ -12,8 +12,10 @@ namespace PrintWeb.Interface
 
         float Discount { get; set; }
 
+        long PossibleSize { get; set; }
+
         IEnumerable<IProduct> Products { get; set; }
 
-
+        IEnumerable<IDevice> Devices { get; set; }
     }
 }
