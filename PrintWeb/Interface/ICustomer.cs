@@ -16,6 +16,8 @@ namespace PrintWeb.Interface
 
         string InvoiceNumber { get; set; }
 
-        CustomerEntities Enity { get; set; }
+        string MailAddress { get; set; }
+
+        CustomerEntities Enity { get; }
     }
 }

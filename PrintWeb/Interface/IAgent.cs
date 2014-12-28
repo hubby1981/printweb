@@ -12,6 +12,7 @@ namespace PrintWeb.Interface
 
         string Url { get; set; }
 
+        TimeSpan DeliveringTime { get; set; }
 
     }
 }
