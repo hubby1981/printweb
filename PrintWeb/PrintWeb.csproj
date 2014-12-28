@@ -39,8 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IDevice.cs" />
     <Compile Include="Interface\IManufactor.cs" />
-    <Compile Include="Interface\IPrinter.cs" />
     <Compile Include="Interface\IProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

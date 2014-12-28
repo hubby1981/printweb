@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrintWeb.Interface
 {
-    interface IPrinter
+    interface IDevice
     {
         string Name { get; set; }
 
@@ -16,6 +16,6 @@ namespace PrintWeb.Interface
 
         string UID { get; set; }
 
-
+        IManufactor Manufactor { get; set; }
     }
 }
