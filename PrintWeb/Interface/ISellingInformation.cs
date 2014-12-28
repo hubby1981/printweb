@@ -7,15 +7,12 @@ using System.Threading.Tasks;
 
 namespace PrintWeb.Interface
 {
-    public interface ICustomer
+    interface ISellingInformation
     {
 
-        string Name { get; set; }
+        long BuyableSize { get; set; }
 
-        string Id { get; set; }
 
-        string InvoiceNumber { get; set; }
-
-        CustomerEntities Enity { get; set; }
+        CustomerEntities CustomerEntity { get; set; }
     }
 }

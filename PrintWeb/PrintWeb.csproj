@@ -45,6 +45,7 @@
     <Compile Include="Interface\IDevice.cs" />
     <Compile Include="Interface\IManufactor.cs" />
     <Compile Include="Interface\IProduct.cs" />
+    <Compile Include="Interface\ISellingInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -12,7 +12,7 @@ namespace PrintWeb.Interface
 
         float Discount { get; set; }
 
-        long PossibleSize { get; set; }
+        HashSet<ISellingInformation> SellingInformations { get; set; }
 
         IEnumerable<IProduct> Products { get; set; }
 
