@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace PrintWeb.Interface
 {
-    public interface IManufactor
+    public interface ICustomer
     {
 
-        string NAme { get; set; }
+        string Name { get; set; }
+
+
     }
 }

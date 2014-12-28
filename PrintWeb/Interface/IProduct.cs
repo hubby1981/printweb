@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrintWeb.Interface
 {
-    interface IProduct
+    public interface IProduct
     {
         float Price { get; set; }
 

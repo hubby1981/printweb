@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace PrintWeb.Interface
 {
-    public interface IDevice
+    public interface IAgent
     {
         string Name { get; set; }
 
-        string Id { get; set; }
+        string Url { get; set; }
 
-        string EAN { get; set; }
 
-        string UID { get; set; }
-
-        IManufactor Manufactor { get; set; }
     }
 }
